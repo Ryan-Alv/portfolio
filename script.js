@@ -26,7 +26,9 @@ mobileNav?.addEventListener("click", (e) => {
 const repoMap = {
   rsa: "https://github.com/Ryan-Alv/Projeto-de-Criptografia-RSA-2048-Bits",
   task: "https://github.com/Ryan-Alv/task-manager-java",
+  portfolio: "https://github.com/Ryan-Alv/portfolio",
 };
+
 
 document.querySelectorAll("[data-copy]").forEach((btn) => {
   btn.addEventListener("click", async () => {
